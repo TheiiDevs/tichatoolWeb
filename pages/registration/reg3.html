@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tichatool|register</title>
+        <style>
+
+            body{
+                background-color: white;
+                font-family: 'Poppins' ,sans-serif;
+            
+            }
+
+            .help{
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            form{
+                margin-top: 5%;
+                width: 40%;
+                margin-left: 30%;
+                margin-right: auto;
+            
+            }
+
+            
+            
+
+            select{
+            text-align: center;
+            height: 40px;
+            border: none;
+            width: 100%;
+            border-bottom: 0.1pt solid rgb(197, 17, 128);
+            }
+
+            input{
+            text-align: center;
+            height: 40px;
+            border: none;
+            width: 100%;
+            border-bottom: 0.1pt solid rgb(197, 17, 128);
+            }
+
+        
+
+            select{
+                text-align: center;
+                color: rgb(250, 25, 100);
+    
+
+            }
+
+            a {
+        text-decoration: none;
+        color: rgb(250, 25, 100);
+    
+        }
+
+        a:hover {
+        
+            text-decoration:none; 
+            cursor:pointer;  
+        }
+
+        div{
+            margin-top: 30px;
+        }
+
+            @media
+                 (device-width: 360px) {
+                    form{
+                    margin-left: 15%;
+                    margin-right: 15%;
+                    background-color: rgb(172, 191, 224);
+
+                    }
+
+                }
+
+                a {
+        text-decoration: none;
+        color: #fff;
+    
+        }
+
+        a:hover {
+        
+            text-decoration:none; 
+            cursor:pointer; 
+        }
+
+        .navdiv{
+                        display: flex;
+                        width: 100%;
+                        margin-top: 50px;
+        
+                    }
+        
+                    .logindiv{
+                        background-color: rgb(250, 25, 100);
+                       text-align: center;
+                        width: 20%;
+                        border-radius: 5px;
+                        padding: 3px;
+        
+        
+                    }
+        
+                    .nextdiv{
+                        background-color: rgb(250, 25, 100);
+                       text-align: center;
+                        width: 20%;
+                        border-radius: 5px;
+                        padding: 3px;
+                        margin-left: 60%;
+        
+                    }
+            
+        
+
+       
+        </style>
+</head>
+<body>
+    <a href=""><small class="help">help</small></a>
+    
+        <form action="" id="form" method="GET">
+
+          
+            <section>
+              
+                   <div>
+                    <label>gender :</label>
+                        <select name="gender"> 
+                        <option value=" "> rather not say </option> 
+                        <option value="Male">male</option> 
+                        <option value="Female">female</option> 
+                    </select> 
+                   </div> 
+                   
+                    <div>
+                        <label >age :</label>
+    
+                        <input type="date" id="start" name="trip-start"
+                               value="2018-07-22"
+                               min="2018-01-01" max="2021-01-01">
+                        
+                    </div>
+    
+                    <div>
+                        <label>class :</label>
+                    
+                        <input id="grade" type="name" required placeholder="e.g basic 5">
+                    </div>
+
+                    <div class="navdiv">
+                        <div class="logindiv">
+                            <a type="next" href=""><small class="login">back to login</small></a> 
+                        </div>
+                        <div class="nextdiv">
+                            <a type="next" href="reg5.html"><small class="next"> next</small></a>
+            
+                        </div>
+            
+                    </div>
+
+            </section>
+
+                
+        </form>
+
+     
+    
+</body>
+</html>
