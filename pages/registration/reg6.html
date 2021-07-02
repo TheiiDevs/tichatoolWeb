@@ -55,24 +55,30 @@ body{
                         margin-top: 50px;
         
                     }
+            #sendcodiv{
+                width: 50%;
+            }
         
-                    .logindiv{
+                    .sendcodiv{
                         background-color: rgb(250, 25, 100);
                        text-align: center;
-                        width: 20%;
+                        width: 50%;
                         border-radius: 5px;
                         padding: 3px;
         
         
                     }
+                    
+            #nextdiv{
+                width: 50%;
+            }
         
                     .nextdiv{
                         background-color: rgb(250, 25, 100);
-                       text-align: center;
-                        width: 20%;
+                        width: 60%;
                         border-radius: 5px;
                         padding: 3px;
-                        margin-left: 60%;
+                        margin-left: 40%;
         
                     }
     </style>
@@ -80,16 +86,29 @@ body{
 <body>
     <a href=""><small class="help">help</small></a>
     <form>
+        
         <input type="code" placeholder="enter code"> <br>
         <small>code sent to email or phone</small>
         <div class="navdiv">
-            <div class="logindiv">
-                <a  href=""><small class="resend">resend code</small></a> 
+            <div id ="sendcodiv">
+                <a href="">
+                    <div class="sendcodiv">
+                        <small class="resend">resend code</small>
+                    </div>
+                </a>
             </div>
-            <div class="nextdiv">
-                <a  href="reg7.html"><small class="next"> next</small></a>
-    
-            </div>
+            
+
+                <div id="nextdiv">
+                    <a href="reg7.html">
+                        <div class="nextdiv">
+                            <small class="next"> next</small>
+                
+                        </div>
+                    </a>
+
+                </div>
+                
     
         </div>
     </form>
