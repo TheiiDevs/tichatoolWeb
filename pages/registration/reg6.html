@@ -38,10 +38,10 @@ body{
            
 
             a {
-        text-decoration: none;
-        color: #fff;
-    
-        }
+                text-decoration: none;
+                color:  rgb(197, 17, 128);
+            
+                }
 
         a:hover {
         
@@ -55,30 +55,19 @@ body{
                         margin-top: 50px;
         
                     }
-            #sendcodiv{
-                width: 50%;
-            }
         
-                    .sendcodiv{
+                    section{
+                        width: 25%;
+                    }
+    
+                    button{
+                        border: none;
+                        color: #fff;
+                        border-radius: 5px;
                         background-color: rgb(250, 25, 100);
                        text-align: center;
-                        width: 50%;
-                        border-radius: 5px;
+                       width: 30%;
                         padding: 3px;
-        
-        
-                    }
-                    
-            #nextdiv{
-                width: 50%;
-            }
-        
-                    .nextdiv{
-                        background-color: rgb(250, 25, 100);
-                        width: 60%;
-                        border-radius: 5px;
-                        padding: 3px;
-                        margin-left: 40%;
         
                     }
     </style>
@@ -87,30 +76,15 @@ body{
     <a href=""><small class="help">help</small></a>
     <form>
         
-        <input type="code" placeholder="enter code"> <br>
+        <input type="code" placeholder="enter code" required> <br>
         <small>code sent to email or phone</small>
-        <div class="navdiv">
-            <div id ="sendcodiv">
-                <a href="">
-                    <div class="sendcodiv">
-                        <small class="resend">resend code</small>
-                    </div>
-                </a>
-            </div>
-            
-
-                <div id="nextdiv">
-                    <a href="reg7.html">
-                        <div class="nextdiv">
-                            <small class="next"> next</small>
-                
-                        </div>
-                    </a>
-
+            <div class="navdiv">
+           
+                    <button id="sendcode" type="reset" ><small>resend code</small></button>
+                    <section></section>
+                    <section></section>
+                    <button id ="varify"type="submit" ><small>varify code</small></button>
                 </div>
-                
-    
-        </div>
     </form>
     
 </body>

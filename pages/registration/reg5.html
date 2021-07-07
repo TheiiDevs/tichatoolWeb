@@ -75,26 +75,31 @@
                         display: flex;
                         width: 100%;
                         margin-top: 50px;
+                        text-align: center;
         
                     }
         
+                    #logindiv{
+                        width: 30%;
+                    }
+
                     .logindiv{
                         background-color: rgb(250, 25, 100);
-                       text-align: center;
-                        width: 20%;
                         border-radius: 5px;
                         padding: 3px;
-        
-        
+                    }
+
+                    section{
+                        width: 25%;
                     }
         
-                    .nextdiv{
+                    button{
                         background-color: rgb(250, 25, 100);
-                       text-align: center;
-                        width: 20%;
+                        width: 30%;
                         border-radius: 5px;
+                        border:none ;
                         padding: 3px;
-                        margin-left: 60%;
+                        color: #fff;
         
                     }
 
@@ -112,7 +117,7 @@
 </head>
 <body>
     <a href=""><small class="help">help</small></a>
-    <section>
+    <div>
         <div class="divlabel">
             <label for=""><span>address:</span></label>
         </div>
@@ -128,18 +133,21 @@
             </div>
                 
             <div class="navdiv">
-                <div class="logindiv">
-                    <a  href="login.html"><small class="login">back to login</small></a> 
+                <div id="logindiv">
+                    <a  href="login.html">
+                        <div class>
+                            <small class="navdiv">back to login</small>
+                        </div>
+                    </a> 
                 </div>
-                <div class="nextdiv">
-                    <a  href="reg6.html"><small class="next"> next</small></a>
-    
-                </div>
+                <section></section>
+                <section></section>
+                <button type="submit"><small> next</small></button>
     
             </div>
                 
         </form>
-    </section>
+    </div>
     
     
 </body>

@@ -12,17 +12,22 @@
                         font-family: 'Poppins' ,sans-serif;
                     
                     }
+            .help{
+                margin-top: 20px;
+                margin-left: 20px;
+                color: rgb(216, 37, 73);
+            }
+
 
         .header{
             width: 100%;
             text-align: center;
             color: rgb(216, 37, 73);
             margin-top: 5%;
-            margin-bottom: 10%;
+            margin-bottom: 4%;
         }
 
         section{
-            display: flex;
             background-color: rgb(136, 6, 32);
             border-radius: 5px;
             width: 95%;
@@ -35,13 +40,17 @@
         }
 
         .abt{
+            display: flex;
             text-align: center;
-            width: 30%;
+            width: 70%;
             margin-right: 5%;
+            margin-top: 15px;
+            color: rgb(238, 163, 178);
         }
 
         .small{
-            margin: 10%;
+            margin-top: 1px;
+            margin-bottom: 10px;
         }
 
         .gradeplan{
@@ -50,10 +59,16 @@
 
         .bigtxt{
             margin: 0px, 10px, 10px, 30px;
+            color: rgb(238, 163, 178);
         }
         .dolla{
             width: 60%;
             text-align: center;
+
+        }
+
+        .numb{
+            color: #fff;
         }
 
         #more{
@@ -65,8 +80,9 @@
         .more1{
             background-color:rgb(219, 139, 155);
             border-radius: 10px;
-            width: 50%;
+            width: 100px;
             padding: 3px;
+            text-align: center;
         }
         
         a {
@@ -84,64 +100,70 @@
     </style>
 </head>
 <body>
+    <a href=""><small class="help">help</small></a>
     <div class="header">
         <span>choose your plan</span>
     </div>
-        <a href="">
+      
             <section >
                 <div class="gradeplan">
                     <div class="bigtxt"><span>premium</span></div>
-                    <br>
-                    <div class="dolla" > <span>$5 /student</span> <br> 
-                        <small> for four months</small></div>
+                   
                 </div>
                 <div class="abt">
+                    <div class="dolla" > <span class="numb">$5 /student</span> <br> 
+                        <small> for four months</small></div>
                         <div class="small">
                             <small>all features are available</small>
                         </div>
-                     <div id="more">
-                        <div class="more1"><small>more</small></div>
-                    </div>
+                </div>
+                <div id="more">
+                    <a href="">
+                    <div class="more1"><small>more</small></div>
+                </a>
                 </div>
             </section>
-        </a>
-        <a href="">
+
             <section>
                 <div class="gradeplan">
-                    <div class="bigtxt"><span>baby plan</span></div>
-                    <br>
-                    <div class="dolla" > <span>$4 /student</span> <br> 
-                        <small> for four months</small></div>
+                    <div class="bigtxt"
+                    ><span>baby plan</span></div>
+                   
                 </div>
                 <div class="abt">
-                    <div class="small">
-                        <small>no ads</small>
+                    <div class="dolla"> <span class="numb">$4 /student</span> <br> 
+                        <small> for four months</small>
                     </div>
-                    <div id="more">
-                        <div class="more1"><small>more</small></div>
-                    </div>
+                        <div class="small">
+                            <small>no ads</small>
+                        </div>
+                </div>
+                <div id="more">
+                    <a  href="">
+                    <div class="more1"><small>more</small></div>
+                </a>
                 </div>
             </section>
-        </a>
-        <a href="">
+        
             <section>
                 <div class="gradeplan">
                     <div class="bigtxt"><span>premium</span></div>
-                    <br>
-                    <div class="dolla" > <span>$0 /student</span> <br> 
-                        <small> for four months</small></div>
+                   
                 </div>
                 <div class="abt">
-                    <div class="small">
-                        <small>ads</small>
+                    <div class="dolla" > <span class="numb">$0 /student</span> <br> 
+                        <small> forever</small>
                     </div>
-                    <div id="more">
-                        <div class="more1"><small>more</small></div>
-                    </div>
+                        <div class="small">
+                            <small>ads</small>
+                        </div>
                 </div>
-            </section>
-        </a>
-        
+                <div id="more">
+                    <a href="">
+                    <div class="more1"><small>more</small></div>
+                </a>
+                </div>
+            </section> 
     
 </body>
 </html>

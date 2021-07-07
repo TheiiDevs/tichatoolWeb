@@ -52,8 +52,13 @@
             }
 
                 section{
-                    width: 20%;
+                    width: 25%;
 
+                }
+
+                #logindiv{
+                    width: 30%;
+                    
                 }
 
                 .logindiv{
@@ -64,11 +69,13 @@
                     }
 
 
-                    .nextdiv{
+                    button{
                         background-color:rgb(250, 25, 100) ;
                         border-radius: 5px;
                         padding: 3px;
-                        width: 100%;
+                        width: 30%;
+                        border: none;
+                        color: #fff;
                     }
 
             .articlediv{
@@ -85,42 +92,31 @@
 input to tell the deference from the school branches*/ 
 
         </style>
+
 </head>
 <body>
     <a href=""><small class="help">help</small></a>
     
         <form action="" id="form" method="GET">
             <div>
-                <input type="name" id ="surname" placeholder="one Directors' full name" required>
-                <br>
-                <span><small>titles and initials are allowed</small></span>
-                <br>
-                <input id="firstname" type="name" required placeholder="school name">
-                <br>
-                <input type="text" placeholder="branch: e.g fagba, lagos branch">
+                <input id="schoolname" type="name"  placeholder="school name" required>
+                <input type="text" placeholder="branch: e.g fagba, lagos">
+                <br> <small>pleasse skip this if you are not a branch</small>
             </div>
                 
             <div class="navdiv">
-                    <section id="logindiv">
-                        <a href="">
+                    <div id="logindiv">
+                        <a href="../login/login.html">
                             <div class="logindiv">
                                 <small> back to login</small>
                     
                             </div>
                         </a>
-                    </section>
-                    <section></section>
+                    </div>
                     <section></section>
                     <section></section>
 
-                    <section id="nextdiv">
-                        <a href="">
-                            <div class="nextdiv">
-                                <small> next</small>
-                    
-                            </div>
-                        </a>
-                    </section>
+                    <button type="submit" ><small> next</small></button>
         
             </div>
                 

@@ -13,15 +13,15 @@
             
             }
 
-            .help{
+            div{
                 margin-top: 20px;
-                margin-left: 20px;
             }
+
 
             form{
                 margin-top: 5%;
-                width: 40%;
-                margin-left: 30%;
+                width: 60%;
+                margin-left: 20%;
                 margin-right: auto;
             
             }
@@ -56,7 +56,7 @@
 
             a {
         text-decoration: none;
-        color: rgb(250, 25, 100);
+        color: #fff;
     
         }
 
@@ -66,20 +66,6 @@
             cursor:pointer;  
         }
 
-        div{
-            margin-top: 30px;
-        }
-
-            @media
-                 (device-width: 360px) {
-                    form{
-                    margin-left: 15%;
-                    margin-right: 15%;
-                    background-color: rgb(172, 191, 224);
-
-                    }
-
-                }
 
                 a {
         text-decoration: none;
@@ -93,31 +79,39 @@
             cursor:pointer; 
         }
 
-        .navdiv{
-                        display: flex;
+        .navsec{
+                display: flex;
+                width: 100%;
+                margin-top: 5%;
+                
+            }
+
+                section{
+                    width: 20%;
+
+                }
+
+                #logindiv{
+                    width: 30%;
+                    
+                }
+
+                .logindiv{
+                        background-color:rgb(250, 25, 100) ;
                         width: 100%;
-                        margin-top: 50px;
-        
-                    }
-        
-                    .logindiv{
-                        background-color: rgb(250, 25, 100);
-                       text-align: center;
-                        width: 20%;
                         border-radius: 5px;
                         padding: 3px;
-        
-        
+                        text-align: center;
                     }
-        
-                    .nextdiv{
-                        background-color: rgb(250, 25, 100);
-                       text-align: center;
-                        width: 20%;
+
+
+                    button{
+                        background-color:rgb(250, 25, 100) ;
                         border-radius: 5px;
                         padding: 3px;
-                        margin-left: 60%;
-        
+                        width: 30%;
+                        border: none;
+                        color: #fff;
                     }
             
         
@@ -129,17 +123,14 @@
     <a href=""><small class="help">help</small></a>
     
         <form action="" id="form" method="GET">
-
-          
-            <section>
               
                    <div>
-                    <label>gender :</label>
-                        <select name="gender"> 
-                        <option value=" "> rather not say </option> 
-                        <option value="Male">male</option> 
-                        <option value="Female">female</option> 
-                    </select> 
+                        <label>gender :</label>
+                            <select name="gender" required> 
+                            <option value=" "> rather not say </option> 
+                            <option value="Male">male</option> 
+                            <option value="Female">female</option> 
+                        </select> 
                    </div> 
                    
                     <div>
@@ -147,7 +138,7 @@
     
                         <input type="date" id="start" name="trip-start"
                                value="2018-07-22"
-                               min="2018-01-01" max="2021-01-01">
+                               min="2018-01-01" max="2021-01-01" required>
                         
                     </div>
     
@@ -157,16 +148,20 @@
                         <input id="grade" type="name" required placeholder="e.g basic 5">
                     </div>
 
-                    <div class="navdiv">
-                        <div class="logindiv">
-                            <a type="next" href=""><small class="login">back to login</small></a> 
-                        </div>
-                        <div class="nextdiv">
-                            <a type="next" href="reg5.html"><small class="next"> next</small></a>
-            
-                        </div>
-            
-                    </div>
+                        
+            <section class="navsec">
+                <section id="logindiv">
+                    <a href="../login/login.html">
+                        <section class="logindiv">
+                            <small> back to login</small>
+                
+                        </section>
+                    </a>
+                </section>
+                <section></section>
+                <section></section>
+
+                <button type="submit" ><small> next</small></button>
 
             </section>
 

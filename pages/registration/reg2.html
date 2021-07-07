@@ -21,12 +21,6 @@
 
             }
 
-            div{
-            width: 40%;
-            margin-left: 30%;
-            margin-right: 30%;
-    
-            }
 
             input{
             text-align: center;
@@ -37,14 +31,43 @@
             border-bottom: 0.1pt solid rgb(197, 17, 128);
             }
 
-            h4{
-                margin-top: 50px;
-                margin-left: 70%;
+            .navdiv{
+                display: flex;
+                width: 100%;
+                margin-top: 5%;
+                margin-bottom: 10%;
             }
 
+                section{
+                    width: 25%;
+
+                }
+
+                #logindiv{
+                    width: 30%;
+                    
+                }
+
+                .logindiv{
+                        background-color:rgb(250, 25, 100) ;
+                        width: 100%;
+                        border-radius: 5px;
+                        padding: 3px;
+                        text-align: center;
+                    }
+
+
+                    button{
+                        background-color:rgb(250, 25, 100) ;
+                        border-radius: 5px;
+                        padding: 3px;
+                        width: 30%;
+                        border: none;
+                        color: #fff;
+                    }
             a {
         text-decoration: none;
-        color: rgb(250, 25, 100);
+        color:#fff;
     
         }
 
@@ -62,12 +85,26 @@
             <div>
                 <input type="name" id ="surname" placeholder="enter surname" required>
                 <br>
-                <input id="firstname" type="name" required placeholder="enter firstname">
+                <input id="firstname" type="name" required placeholder="enter firstname" required>
                 <br>
-                <input id="name" type="name" required placeholder="enter middlename">
+                <input id="name" type="name" required placeholder="enter middlename" required>
             </div>
                 
-                    <a type="next" href="reg3.html"><h4 class="next"> next</h4></a>
+            <div class="navdiv">
+                <div id="logindiv">
+                    <a href="../login/login.html">
+                        <div class="logindiv">
+                            <small> back to login</small>
+                
+                        </div>
+                    </a>
+                </div>
+                <section></section>
+                <section></section>
+
+                <button id="nextdiv" ><small> next</small></button>
+    
+            </div>
                 
         </form>
 
