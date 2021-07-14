@@ -45,6 +45,8 @@ inp.addEventListener('click',(e)=>{
     
 })
 
+
+
 calc.addEventListener('click',(e)=>{
     if(num2.innerHTML== "6 "){
         var newinput = parseInt(inp.value);
