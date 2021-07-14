@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachers</title>
+    <style>
+        .sachdiv{
+            display: flex;
+            justify-content: center;
+            width:270px;
+            border-radius: 17px;
+            background-color: #fff;
+            padding: 2px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 1px 1px 3px grey;
+        }
+
+        .ticha{
+          display: flex;
+          justify-items: center;
+          padding: 5px;
+        }
+        
+        .tichimg{
+            width: 18px;
+            height: 18px;
+            margin-top: 2px;
+        }
+
+        .sachbtn{
+           display: flex;
+           padding: 5px;
+        }
+
+        input{
+            width: 75%;
+            padding: 5px;
+            border: none;
+        }
+
+        .header{
+           text-align: center;
+        }
+
+        .logo{
+            width: 20px;
+            margin-right: 7px;
+            margin-left: 5px;
+        }
+
+        .headertxt{
+            margin-top: 2px;
+            color: rgb(250, 25, 100);
+
+        }
+
+        #sachdiv{
+            width: 90%;
+            text-align: center;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        small{
+            color: rgb(167, 126, 139);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section class="header">
+        <img class="logo" src="/logos/tichatoollogofill2.png" alt="">
+       <span class="headertxt">Tichatool</span>
+    </section>
+    <section>
+        <form action="">
+            <div class="sachdiv">
+                <div class="ticha">  <img class="tichimg" src="/logos/teachers.png" alt=""></div>
+                <input type="text" placeholder="search for our employed teachers" required>
+               <div class="sachbtn"> <img src="/logos/search.png"></img></div>
+            </div>
+        </form>
+    </section>
+
+    <section id="sachdiv">
+        <small>added teachers appear here</small>
+        <div id="addedtichas">
+            <!-- added teachers appear here. search optmize and only show 
+            searched teacher-->
+
+        </div>
+
+
+    </section>
+    
+</body>
+</html>

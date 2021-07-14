@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: #fff;
+            font-family: 'Myriad Pro300', sans-serif;
+            font-size: 13px;
+        }
+
+        section{
+            text-align: center;
+            width: 100%;
+            color: rgb(243, 54, 142);
+            margin-bottom: 80px;
+        }
+
+        .container{
+            min-width: 300px;
+            max-width: 500px;
+            border: 0.5px solid rgb(243, 54, 142);
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        .line{
+            display: flex;
+            padding: 10px;
+            border-bottom: 0.5pt solid rgb(197, 17, 128);
+        }
+
+        .line0{
+            display: flex;
+            padding: 10px;
+        }
+
+        .side1{
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
+            color: rgb(163, 9, 104);
+
+        }
+        .side0{
+            width: 50%;
+
+        }
+        article{
+            font-size: 11px;
+            color: grey;
+        }
+
+        .innertxt{
+            color: rgb(243, 54, 142);
+            margin: 7px;
+        }
+        .autoaddtxt{
+            color:rgb(163, 9, 104);
+        }
+
+        .btns{
+            display: flex;
+            width: 100%;
+            margin-top: 20px;
+            
+        }
+
+        .cplan{
+            background-color: rgb(243, 54, 142);
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        
+        .cplan0{
+           width: 50%;
+
+        }
+
+        button{
+            background-color: rgb(243, 54, 142);
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+        }
+
+        .button{
+            display: flex;
+           justify-content:  flex-end;
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <section><small>plans</small></section>
+            <div class="container">
+                <div class="line">
+                    <div class="side0"><span>plan</span></div> <div class="side1"><span>premium</span></div>
+
+                </div>
+                <div class="line">
+                    <div class="side0"><span>duration</span></div> <div class="side1"><span>4 months</span></div>
+
+                </div>
+                <div class="line">
+                    <div class="side0"><span>autorenew</span></div> <div class="side1"><input type="checkbox"></div>
+
+                </div>
+                <div class="line0">
+                    <div class="side0"><span>auto add pay</span></div> <div class="side1"><input type="checkbox"></div>
+
+                </div>
+                <div style="text-align: center; padding: 20px;">
+                    <article>
+                        if <span class="autoaddtxt">auto add pay</span> is checked, we will charge from your credit automatically everytime you add
+                        a new student.
+                        <div class="innertxt">get discounts on newly added students by checking <span class="autoaddtxt">auto add pay</span></div> <br> if unchecked,you'll have to pay for newely added students manually.
+                    </article>
+
+                </div>
+            
+            </div>
+
+   <div class="btns">
+       <div class="cplan0">
+            <div>
+                <a href="changeplaninfo.html">
+                    <div class="cplan">
+                        <small>change plan</small>
+                    </div>
+                </a>
+            </div>
+
+       </div>
+       <div class="button">
+            <button><small>save changes</small></button>
+
+       </div>
+
+   </div>
+
+
+</body>
+</html>

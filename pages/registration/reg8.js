@@ -14,7 +14,7 @@ function fn1(){
 
     if(student.checked == false && admin.checked== false){
       
-        info.innerHTML="<small> please click one of the buttons above, admin or student</small>";
+        info.innerHTML="<small style = \"color:red; text-align:center;\" > please click one of the buttons above, admin or student</small>";
     }
 
 }
