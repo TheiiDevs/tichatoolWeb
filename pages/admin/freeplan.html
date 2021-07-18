@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>freeplan</title>
     <style>
          body{
         background-color: #fff;
@@ -131,66 +131,7 @@
             width: 15px;
             margin-right: 4px;
         }
-        .btn{
-            width: 9px; 
-        }
-     
-
-        #btn2{
-           text-align: right;
-
-        }
-
-        .num1{
-            width: 100px;
-            text-align: center;
-           
-
-        }
-        #num2{
-          margin-right: 3px;
-
-        }
-
-        .selector{
-            display: flex;
-            justify-content: center;
-            margin: 10px;
-        }
-
-        .inpNtxt{
-            display: flex;
-        }
-
-        .inptxt{
-            width: 50%;
-            padding: 5px;
-            color: rgb(133, 16, 71);
-           
-        }
-
-        .inpdiv{
-            width: 50%;
-        }
-
-        .input{
-            display: flex;
-            justify-content: flex-end;
-            width: 90%;
-            padding: 15px;
-          
-        }
-
-        #inp{
-         background-color: rgb(250, 198, 222);
-         border: none;
-          width: 80%;
-          height: 23px;
-          border-radius: 2px;
-          text-align: center;
-        }
-
-
+       
         .calcdiv{
             margin-top: 15px;
             display: flex;
@@ -220,46 +161,8 @@
             width: 50%;
         }
 
-        #checkout{
-            display: none;
-            margin-top: 40px;
-            color: grey;
-        }
-
-        .chekinfo{
-            background-color: #fff;
-            min-width: 280px;
-            max-width: 500px;
-            box-shadow: .2em .4px 1px rgb(209, 207, 207);
-            border-radius: 10px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .chekinp{
-            padding: 2px;
-            height: 20px;
-            border: none;
-            width: 90%;
-            border-bottom: 0.1pt solid rgb(197, 17, 128);
-           
-        }
-
-        form{
-            width: 95%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
       
-
-        .chekflex{
-            display: flex;
-            width: 100%;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-
+        
         .flex1{
             width: 80%;
         }
@@ -268,32 +171,7 @@
             width: 20%;
         }
 
-        .chekdate{
-            width: 50px;
-            padding: 2px;
-            height: 20px;
-            border: none;
-            border-bottom: 0.1pt solid rgb(197, 17, 128);
-        }
-
-        #yy{
-            margin-left: 10px;
-        }
-
-        .cvc{
-            width: 50px;
-            width: 50px;
-            padding: 2px;
-            height: 20px;
-            border: none;
-            border-bottom: 0.1pt solid rgb(197, 17, 128);
-        }
-
-        .chekbox{
-            width: 5px;
-        }
-
-
+       
 
 .checkoutbtn{
     margin-top: 20px;
@@ -301,9 +179,9 @@
     background-color: rgb(245, 48, 179);
             width: 95%;
             padding: 5px;
-            border: none;
             border-radius: 10px;
             color: #fff;
+            text-align: center;
 
 }
 
@@ -333,17 +211,20 @@ a{
 
 }
     </style>
-    <script defer src="/js/premium.js"></script>
+    <script defer src="/js/baby.js"></script>
 </head>
 <body>
-   <div class="premtitle"><span >premium</span></div>
+   <div class="premtitle"><span >baby plan</span></div>
 
         <div class="read">
                 <p class="text">
+                    <span class="txtsubhed">ads: </span> ads of any kind on student portals. cover screen pop ups
+                    and status <span class="dots">...</span><span class="more"> ads on admin board
+                    <br>
+                    <br>
                     <span class="txtsubhed">no ads: </span> no ads of any kind on student portals. no cover screen pop ups ads on admin board
-                        only status and possible status <span class="dots">...</span>
-                        <span class="more"> ads only on admin feeds, not 
-                        parent student portals. thats for the sake of academic competions
+                        only status and possible status ads only on admin feeds, not 
+                        parent student portals. thats for the sake of academic competions and vital academic informations.
                         <br>
                         <br>
                     <span class="txtsubhed">vet results: </span> admin can vet results before it appear on portal
@@ -354,13 +235,13 @@ a{
                         can also see which school.
                         <br>
                         <br>
-                    <span class="txtsubhed">home key: </span>if tichatool is linked to your school website, you can always click home
+                    <span class="txtsubhed">home key </span>if tichatool is linked to your school website, you can always click home
                         key on the portal to return to school website home.
                         <br>
-                    <span class="txtsubhed">lock portal: </span> you can block a particular student from viewing their portal.
+                    <span class="txtsubhed">lock portal </span> you can block a particular student from viewing their portal.
                         <br>
                         <br>
-                    <span class="txtsubhed">camarker: </span>teachers can use the cammarker feature. cammaker is a special
+                    <span class="txtsubhed">camarker </span>teachers can use the cammarker feature. cammaker is a special
                         feature to speed up recording. it helps teachers to mark exams or tests
                         and input scores automatically to spreadsheet.</span>
                 </p>
@@ -369,47 +250,43 @@ a{
         </div>
    
   <section>
-    <div class="selector">
-       <div >
-           <img class="btn" id="prevN" src="/logos/back.png" alt="">
-        </div>
-        <div class="num1">
-            <span id="num1">4 months</span>
-        </div>
-        <div >
-            <img  class="btn"  id="nextN" src="/logos/next.png" alt="">
-        </div>
-    </div>
+   
     <div class="container">
                 <div class="div0">
-                        <div class="box1"><span class="premtxt">premium</span></div>
-                        <div class="box2">$<span id="num2">6 </span> per student</div>
+                        <div class="box1"><span class="premtxt">free plan</span></div>
+                        <div class="box2">$0 per student</div>
                 </div>
                
                 <div class="div1">
-                    <div class="box1"><span>no ads</span></div>
+                    <div class="box1"><span>ads</span></div>
                     <div class="box2"><img src="/logos/checked.png" alt=""></div>
+                </div>
+
+                <div class="div1">
+                    <div class="box1"><span>no ads</span></div> 
+                        <div class="box2"><img class="img" src="/logos/unchecked.png" alt=""></div>
+        
                 </div>
         
                 <div class="div1">
                     <div class="box1"><span>vet results</span></div> 
-                        <div class="box2"><img src="/logos/checked.png" alt=""></div>
+                        <div class="box2"><img class="img" src="/logos/unchecked.png" alt=""></div>
         
                 </div>
         
                 <div class="div1">
                     <div class="box1"> <span>migration alert</span> </div>
-                    <div class="box2">  <img src="/logos/checked.png" alt=""></div>
+                    <div class="box2">  <img class="img" src="/logos/unchecked.png" alt=""></div>
                 </div>
         
                 <div class="div1">
                     <div class="box1"><span>home key </span></div>
-                    <div class="box2"><img src="/logos/checked.png" alt=""></div>
+                    <div class="box2"><img class="img" src="/logos/unchecked.png" alt=""></div>
                 </div>
         
                 <div class="div1">
                     <div class="box1"><span>lock portal</span></div>
-                    <div class="box2"><img src="/logos/checked.png" alt=""></div>
+                    <div class="box2"><img class="img" src="/logos/unchecked.png" alt=""></div>
                 </div> 
                 
                 <div class="div1">
@@ -424,77 +301,39 @@ a{
                    <div class="boxsoon"> <div class="soon"><small>soon</small></div></div>
                     <div class="box0"><img class="img" src="/logos/unchecked.png" alt=""></div>
                 </div>
-        
-        
-                <div class="inpNtxt">
-                    <div class="inptxt">
-                        <span>please enter the number of students you wish
-                            to pay for now
-                        </span>
-                    </div>
-                   <div class="inpdiv">
-                    <div class="input">
-                        <input type="number" id="inp" placeholder="enter">
-                    </div>
-                    <div id="info2"  style="text-align: right; color: rgb(187, 8, 157);"></div>
-                   </div>
-                </div>
-                
-               <div>
- 
-    </div>
    
-   </div>
-   <div id="info" style="text-align: center; color: red;">
-
    </div>
 
    <div class="calcdiv">
         <div class="calcbtndiv">
-        <button class="rbtn" id="calc">calculate</button>
         </div>
         <div class="outputdiv">
             <div class="output">
-                <span>$</span> <span id="output"></span>
-            </div>
+                <span>$0.00</span>
         </div>
    </div>
     
   </section>
-  <section id="checkout">
-
-      <div>
-        <div class="chekinfo">
-            <h2>checkout</h2>
-            <form action="">
-                <label >name</label> <br>
-                <input class="chekinp" type="name" required><br> <br>
-                <label>card number</label><br> 
-                <input class="chekinp" type="text" required>
-                <div  class="chekflex">
-                    <div class="flex1">
-                        <label >expiration date</label> <br>
-                        <input class="chekdate" type="name" required> <input id="yy" class="chekdate" type="name" required>
-
-                    </div>
-                    <div  class="flex2">
-                        <label > CVC</label><br>
-                        <input class="cvc" type="text" required>
-
-                    </div>
-                </div>
-
-                   <input id="chekbox" type="checkbox">  <span>remember my information</span> <br>
-
-                    <button class="checkoutbtn">pay now</button>
-               
-            </form>
-  
-      </div>
+  <section id="checkout">             
+   <a href=""> <div class="checkoutbtn">start plan</div></a>
   </section>
 
   <div class="help">
       <div class="hep">need help?</div> <div><a href=""><div class="clickhere">click here</div></a></div>
   </div>
+
+  <script>
+        const text = document.querySelector('.text');
+        const rbtn = document.querySelector('.rbtn');
+
+
+      rbtn.addEventListener('click',(e)=>{
+    text.classList.toggle('show-more');
+    if(rbtn.innerHTML==="read more"){
+        rbtn.innerHTML= 'read less';
+    }else {rbtn.innerHTML= 'read more';}
+})
+
+  </script>
 </body>
 </html>
