@@ -1,0 +1,252 @@
+body{
+    background-color: #fff;
+    font-family: 'Myriad Pro300', sans-serif;
+    font-size: 13px;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    min-width: 300px;
+    width: 1000px;
+    margin-bottom: 20px;
+  
+}
+
+    #lockBtn{
+        padding-bottom: 2px;
+        width: 100px;
+        border-radius: 3px;
+        border: solid 1px rgb(204, 18, 133);
+        color: rgb(204, 18, 133);
+        background-color: #fff;
+    }
+
+    .topdiv{
+        display:flex;
+        justify-content: flex-end;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    
+    }
+
+    .head{
+        display: flex;
+        width: 97%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border-bottom: solid 1px rgb(209, 207, 207);
+    }
+
+    .label{
+        color: rgb(204, 18, 133);
+
+    }
+
+    .profile{
+        width: 10%;
+    }
+
+    #skulogo{
+        border-radius: 20%;
+        width: 50px;
+    }
+    
+    .skuname{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .h1{
+        color: rgb(204, 18, 133);
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+  .hed1{
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      color: rgb(204, 18, 133);
+  }
+
+  .hediv{
+    color: rgb(82, 73, 78);
+}
+
+  .innerhed1{
+    display: flex;
+    justify-content: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inahedtems{
+        margin: 5px;
+    }
+
+    .inahedspace{
+        min-width: 30px;
+        width: 100px;
+    }
+
+    .date{
+        display: flex;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color:rgb(241, 3, 134);
+    }
+
+    .yr{
+        width: 50%;
+    }
+
+    .tem{
+        width: 50%;
+        text-align: end;
+    }
+
+    
+    .scoreNoDiv{
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+        color: rgb(102, 5, 54);
+    }
+
+    .scoreSpaceNO{
+        width: 10%;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    .scoreSpaceLet{
+        width: 10%;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 3px;
+    }
+
+    .scoreOpenSpace{
+        width: 20%;
+    }
+
+
+
+
+    .Attendance{
+        width: 100%;
+        border-radius:5px;
+        border:solid 0.5px rgb(207, 143, 197);
+        margin-top:20px;
+    }
+
+    .atenhed{
+        text-align: center;
+        padding-top:5px;
+        color: rgb(102, 5, 54);
+
+    }
+
+    .roll1{
+        width: 100%;
+        border-top:solid 0.5px rgb(207, 143, 197);
+        margin-top:3px;
+        display:flex;
+    }
+
+    .column1{
+        width: 70%;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:3px;
+        
+    }
+
+    .column2{
+        width: 30%;
+        text-align: center;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+
+
+
+
+    .table2{
+        width: 100%;
+        border-radius:3px;
+        border:solid 0.5px rgb(207, 143, 197);
+        margin-top:20px;
+        display:flex;
+    }
+
+    .Tcolumn0{
+        width: 50%;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:3px;
+        
+    }
+
+    .Tcolumn1{
+        width: 50%;
+        text-align: center;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+    
+
+
+    .comentdiv{
+        border-radius:3px;
+        border:solid 0.5px rgb(207, 143, 197);
+        margin-top:20px;
+        padding: 5px;
+    }
+
+    .com0{
+        padding-left:3px;
+        padding-right:3px;
+        
+    }
+
+    .com2{
+        width: 100%;
+        display:flex;
+    }
+
+    
+
+
+
+
+
+    .footerlogo{
+        width: 100px;
+    }
+
+    #footer{
+        margin-top: 20px;
+        text-align: center;
+        width:100%;
+        height:30px;   /* Height of the footer */
+        background:#fff;
+        box-shadow:   inset 0px 7px 3px -5px rgb(209, 207, 207);
+        padding-top: 10px;
+        color: rgb(241, 3, 134);
+        
+    }

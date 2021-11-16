@@ -1,0 +1,173 @@
+body{
+    background-color: white;
+    font-family: 'Poppins' ,sans-serif;
+
+}
+
+.logodiv{
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    color:rgb(158, 119, 132);
+}
+
+label{
+    color:rgb(250, 25, 100);
+}
+
+
+form{
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: grey 1em 1em 1em;
+
+}
+
+
+
+input{
+text-align: center;
+margin: 10px;
+height: 30px;
+border: none;
+width: 150px;
+border-radius: 5px;
+background: rgb(231, 219, 227);
+}
+
+select{
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    background: rgb(231, 219, 227);
+    }
+
+    .country{
+        text-align: center;
+        margin: 10px;
+        height: 40px;
+        border: none;
+        width: 100px;
+        border-radius: 5px;
+        background: rgb(231, 219, 227);
+    }
+
+    textarea{
+        text-align: center;
+        margin: 10px;
+        height: 80px;
+        border: none;
+        width: 200px;
+        border-radius: 5px;
+        background: rgb(231, 219, 227);
+        }
+
+    .phone{
+        margin-top: 30px;
+    }
+
+.navdiv{
+    display: none;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#nav0{
+    display: none;
+}
+
+#cont0{
+    display: flex;
+
+}
+
+    .cont{
+        display: flex;
+
+    }
+
+    .innercont3{
+        display: flex;
+
+    }
+
+    #show{
+
+        width: 15px;
+    }
+    
+    .showdiv{
+        margin-top: 10px;
+        display: flex;
+        width:100%;
+    }
+
+    .showPtxt{
+        padding-top: 15px;
+    }
+
+
+    #logindiv{
+        width: 30%;
+        
+    }
+
+    .logindiv{
+            background-color:rgb(250, 25, 100) ;
+            width: 100%;
+            border-radius: 5px;
+            padding: 3px;
+            text-align: center;
+        }
+
+
+        button{
+            background-color:rgb(250, 25, 100) ;
+            border-radius: 5px;
+            padding: 3px;
+            width: 300px;
+            border: none;
+            color: #fff;
+            margin-top: 5px;
+        }
+
+        #navend{
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        #bak{
+            display: none;
+        }
+a {
+text-decoration: none;
+color:#fff;
+
+}
+
+a:hover {
+
+text-decoration:none; 
+cursor:pointer; 
+}

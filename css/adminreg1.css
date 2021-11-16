@@ -1,0 +1,262 @@
+body{
+    background-color: white;
+    font-family: 'Poppins' ,sans-serif;
+   
+}
+
+.help{
+    font-size: medium;
+    margin-bottom: 10px;
+    color: rgb(216, 37, 73);;
+}
+
+.logodiv{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.error{
+    min-width: 400px; width: 500px;
+    color:red;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+    display: none;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: grey 1em 1em 1em;
+}
+
+.container{
+    margin: 10px;
+
+}
+
+.input{
+    margin-top: 10px;
+    height: 30px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 234, 241);
+    /*border: 0.1pt solid rgb(197, 17, 128);*/
+    }
+
+    select{
+        margin-top: 10px;
+        height: 30px;
+        width: 350px;
+        border: none;
+     border-radius: 5px;
+        background-color: rgb(248, 234, 241);
+        }
+
+        textarea{
+            margin-top: 10px;
+            height: 40px;
+            width: 450px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(248, 234, 241);
+            }
+
+
+button{
+    background-color:rgb(250, 25, 100) ;
+            border-radius: 5px;
+            padding: 3px;
+            width: 100px;
+            border: none;
+            color: #fff;
+            margin-bottom: 20px;
+            margin-top: 20px;
+}
+
+.navDiv{
+    display: none;
+}
+
+#navEnd{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#navNext1{
+    margin-left: 250px;
+}
+#navback1_0{
+   margin-left: 15px;
+}
+
+#navback1{
+    display: none;
+}
+
+#cont0{
+    margin-bottom: 10px;
+}
+
+#cont2{
+    margin-bottom: 10px;
+}
+    
+
+
+        /*Plan style*/
+        .info0{
+            text-align: center;
+            color: grey;
+            margin-bottom: 20px;
+        }
+
+
+
+       
+        #planbox{
+            display: flex;
+            width: 100%;
+            color: rgb(216, 37, 73);
+            margin-top: 5%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+        .planbox{
+            width: 100px;
+            text-align: center;
+           
+            
+            
+        }
+       
+        .header{
+            width: 100%;
+            text-align: center;
+            color: rgb(216, 37, 73);
+            margin-top: 5%;
+            margin-bottom: 4%;
+            }
+            
+            section{
+            background-color: rgb(136, 6, 32);
+            border-radius: 5px;
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            padding:10px;
+            min-height: 25%;
+            margin-top: 1%;
+            
+            }
+            
+            .abt{
+            display: flex;
+            text-align: center;
+            width: 70%;
+            margin-right: 5%;
+            margin-top: 15px;
+            color: rgb(238, 163, 178);
+            }
+            
+            .small{
+            margin-top: 1px;
+            margin-bottom: 10px;
+            }
+            
+            .gradeplan{
+            width: 60%;
+            }
+            
+            .bigtxt{
+            margin: 0px, 10px, 10px, 30px;
+            color: rgb(238, 163, 178);
+            }
+            .dolla{
+            width: 60%;
+            text-align: center;
+            
+            }
+            
+            .numb{
+            color: #fff;
+            }
+
+            .read{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                display: none;
+            }
+            .readmoreColor{
+                color: rgb(216, 37, 73);
+                margin-bottom: 20px;
+                margin-top: 10px;
+                text-align: center;
+            }
+    
+            .txtsubhed{
+                color: rgb(136, 6, 32);
+            }
+    
+            
+            #choose1{
+           margin-left: 290px;
+            }
+
+            #choose2{
+                margin-left: 290px;
+                 }
+
+                 #choose3{
+                    margin-left: 290px;
+                     }
+            
+            .more1{
+            background-color:rgb(219, 139, 155);
+            border-radius: 10px;
+            width: 100px;
+            padding: 3px;
+            text-align: center;
+            }
+            
+            a {
+            text-decoration: none;
+            color: #fff;
+            
+            }
+            
+            a:hover {
+            
+            text-decoration:none; 
+            cursor:pointer; 
+            }
+            /*end of plan style*/
+
+
+
+.articlediv{
+    border: 0.1pt solid rgb(250, 25, 100);
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+    .head{
+        color: rgb(206, 8, 74);
+    }

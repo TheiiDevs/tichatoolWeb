@@ -1,0 +1,311 @@
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.helpdiv {
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+
+.help {
+  font-size: medium;
+  color: rgb(216, 37, 73);
+}
+
+.logodiv {
+  width: 100%;
+  text-align: center;
+}
+img {
+  width: 180px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.body {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 10px;
+  width: 300px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error {
+  width: 280px;
+  color: red;
+
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 40px;
+  border: none;
+  width: 100%;
+  border-bottom: 0.1pt solid rgb(197, 17, 128);
+}
+
+#password1 {
+  text-align: center;
+  height: 40px;
+  border: none;
+  width: 100%;
+  border-bottom: 0.1pt solid rgb(197, 17, 128);
+  margin-bottom: 10px;
+}
+
+#passinfo {
+  color: red;
+  display: none;
+}
+#showpass {
+  width: 20px;
+  border: rgb(197, 17, 128);
+}
+
+.country {
+  margin-top: 20px;
+}
+
+select {
+  width: 100%;
+  border-radius: 5px;
+  border: 0.1pt solid rgb(197, 17, 128);
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 0.1pt solid rgb(197, 17, 128);
+}
+
+.navDiv0 {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+  display: none;
+}
+#navDivv0 {
+  display: none;
+}
+#navDivv1 {
+  display: none;
+}
+
+.navbtn0 {
+  margin-left: 200px;
+}
+
+.navDiv {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+
+#navEnd {
+  display: none;
+}
+.navEnd {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+.navbtn1 {
+  margin-right: 100px;
+}
+
+button {
+  background-color: rgb(250, 25, 100);
+  border-radius: 5px;
+  padding: 3px;
+  width: 100px;
+  border: none;
+  color: #fff;
+}
+
+#navNext1_0 {
+  background-color: rgb(250, 25, 100);
+  border-radius: 5px;
+  padding: 3px;
+  width: 100px;
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#navback1_0 {
+  display: none;
+}
+
+#cont0 {
+  display: none;
+}
+
+#cont1 {
+  display: none;
+}
+
+#cont2 {
+  display: none;
+}
+
+/*Plan style*/
+
+.info0 {
+  text-align: center;
+  color: grey;
+  margin-top: 20px;
+}
+
+#planbox {
+  display: flex;
+  width: 100%;
+  color: rgb(216, 37, 73);
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.planbox {
+  width: 100px;
+  text-align: center;
+}
+
+.planbox {
+  width: 100px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  color: rgb(216, 37, 73);
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+section {
+  background-color: rgb(136, 6, 32);
+  border-radius: 5px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  min-height: 25%;
+  margin-top: 1%;
+}
+
+.abt {
+  display: flex;
+  text-align: center;
+  width: 70%;
+  margin-right: 5%;
+  margin-top: 15px;
+  color: rgb(238, 163, 178);
+}
+
+.small {
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.gradeplan {
+  width: 60%;
+}
+
+.bigtxt {
+  margin: 0px, 10px, 10px, 30px;
+  color: rgb(238, 163, 178);
+}
+.dolla {
+  width: 60%;
+  text-align: center;
+}
+
+.numb {
+  color: #fff;
+}
+
+#more {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.more1 {
+  background-color: rgb(219, 139, 155);
+  border-radius: 10px;
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+}
+
+.read {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+.readmoreColor {
+  color: rgb(216, 37, 73);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.txtsubhed {
+  color: rgb(136, 6, 32);
+}
+
+#choose1 {
+  margin-left: 100px;
+}
+
+#choose2 {
+  margin-left: 100px;
+}
+
+#choose3 {
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+/*end of plan style*/
+
+.articlediv {
+  border: 0.1pt solid rgb(250, 25, 100);
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 20px;
+}
+
+.head {
+  color: rgb(206, 8, 74);
+}

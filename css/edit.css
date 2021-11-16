@@ -1,0 +1,109 @@
+body{
+    background-color: #fff;
+        font-family: 'Myriad Pro300', sans-serif;
+        font-size: 13px;
+
+}
+
+    .body{
+       
+        color: rgb(197, 17, 128);
+        text-align: center;
+    }
+
+    .dp1{
+        width: 90px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #logoimg{
+        width: 80px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 20%;
+
+    }
+   
+
+    .button{
+        width: 200px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color:  rgb(243, 54, 142);
+        color: #fff;
+        padding: 3px;
+
+    }
+    .form{
+        text-align: right;
+        min-width: 200px;
+        max-width: 450px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+        .inp{
+        text-align: center;
+        margin-top: 30px;
+        height: 30px;
+        border: none;
+        width: 72%;
+        border-bottom: 0.1pt solid rgb(197, 17, 128);
+        }
+        
+
+        label{
+            margin-right: 8%;
+        }
+
+        .editP{
+            min-width: 200px;
+            max-width: 450px;
+            min-height: 130px;
+            max-height: 280px;
+            margin-right: auto;
+            margin-left: auto;
+
+            
+        }
+
+        .editP1{
+            width: 100%;
+            height: 190px;
+            background-color: rgb(218, 214, 214);
+            
+        }
+
+        #chphoto{
+            width: 100%;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: none;
+            background-color:  rgb(243, 54, 142);
+            color: #fff;
+            padding: 3px;
+
+        }
+
+        #savebtn{
+            width: 130px;
+        margin-top: 20px;
+        margin-left: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color:  rgb(243, 54, 142);
+        color: #fff;
+        padding: 3px;
+
+        }
+
+        .lastsect{
+            margin-top: 20px;
+        }
+
+        .head{
+            margin-top: 30px;
+
+        }

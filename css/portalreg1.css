@@ -1,0 +1,155 @@
+body{
+    background-color: white;
+    font-family: 'Poppins' ,sans-serif;
+
+}
+
+.logodiv{
+    width: 100%;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+small{
+    color:rgb(158, 119, 132);
+}
+
+label{
+    color:rgb(250, 25, 100);
+}
+
+
+form{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+    a{
+        text-decoration: none;
+        color: rgb(255, 0, 157);
+    }
+
+    .container{
+        margin-top: 10px;
+        width: 300px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    #info_2{
+        color:red; display:none;
+    }
+    
+    input{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    width: 100%;
+    border-bottom: 0.1pt solid rgb(197, 17, 128);
+    }
+    
+    #pass1{
+        text-align: center;
+        height: 40px;
+        border: none;
+        width: 100%;
+        border-bottom: 0.1pt solid rgb(197, 17, 128);
+    }
+
+    .navdiv{
+        margin-top: 20px;
+        display: none;
+    }
+
+ 
+    #navend{
+        margin-top: 20px;
+        display: none;
+        width: 100%;
+    }
+    .btndivs{
+        text-align: center;
+        width: 50%;
+    }
+
+
+    #next0{
+        margin-left: 150px;
+    }
+    
+    #passinfo{
+        color: red; display: none;
+    }
+    #showpass{
+        width: 20px; border: rgb(197, 17, 128);
+    }
+    
+    
+    
+    .country{
+        margin-top: 20px;
+    
+    }
+    
+    select{
+    width: 100%;
+    border-radius: 5px;
+    border: 0.1pt solid rgb(197, 17, 128);
+    
+    }
+    
+    textarea{
+        width: 100%;
+        border-radius: 5px;
+    border: 0.1pt solid rgb(197, 17, 128);
+    
+    }
+
+    button{
+        background-color:rgb(250, 25, 100) ;
+        border-radius: 5px;
+        padding: 3px;
+        width: 80px;
+        border: none;
+        color: #fff;
+    }
+
+     
+      .cont{
+            display: none;
+        }
+
+        #cont3{
+            display: none;
+        }
+        #show{
+
+            width: 15px;
+        }
+        
+        .showdiv{
+            display: flex;
+            width:100%;
+        }
+        .showPtxt{
+            padding-top: 40px;
+        }

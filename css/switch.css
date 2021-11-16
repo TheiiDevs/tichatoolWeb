@@ -1,0 +1,55 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+    .container{
+        text-align: center;
+        min-width: 300px;
+        width: 500px;
+    }
+    .logo{
+        width:50px;
+        margin: 10px;
+    }
+    
+
+    .pdiv{
+        border-radius: 5px;
+        margin: 10px;
+        overflow-y: auto;
+        height: 200px;
+        padding: 5px;
+        min-width: 300px;
+        border: solid 1px rgb(204, 4, 144);
+    }
+            .pdiv::-webkit-scrollbar{
+                display: none;
+            }
+
+
+    button{
+        width: 120px;
+        padding-bottom: 2px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 30, 135);
+        color: #fff;
+    }
+
+    .canclediv{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        
+    }
+
+        .cancle{
+            width: 243px;
+            border-radius: 5px;
+            background-color: rgb(255, 30, 135);
+            color: #fff;
+        }
+        a{
+            text-decoration: none;
+        }
