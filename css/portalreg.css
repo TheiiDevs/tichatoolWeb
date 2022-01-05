@@ -28,8 +28,6 @@ label{
 
 form{
     margin-top: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
     width: 550px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -38,6 +36,9 @@ form{
 
 }
 
+.form{
+    width: 550px;
+}
 
 
 input{
@@ -49,6 +50,11 @@ width: 150px;
 border-radius: 5px;
 background: rgb(231, 219, 227);
 }
+#pass{
+    margin-left: 1px;
+}
+
+
 
 select{
     text-align: center;
@@ -60,6 +66,7 @@ select{
     background: rgb(231, 219, 227);
     }
 
+
     .country{
         text-align: center;
         margin: 10px;
@@ -70,12 +77,16 @@ select{
         background: rgb(231, 219, 227);
     }
 
+    #age{
+        width: 160px;
+    }
+
     textarea{
         text-align: center;
         margin: 10px;
         height: 80px;
         border: none;
-        width: 200px;
+        width: 180px;
         border-radius: 5px;
         background: rgb(231, 219, 227);
         }
@@ -107,6 +118,7 @@ select{
 
     .innercont3{
         display: flex;
+        margin-right: 30px;
 
     }
 

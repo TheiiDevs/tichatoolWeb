@@ -17,7 +17,7 @@
         }
     </script>
     <script defer src="/js/adminreg.js"></script>
-    <script defer src="/js/regscript.js"></script>
+    <!--<script defer src="/js/regscript.js"></script>-->
 
 
 
@@ -41,10 +41,33 @@ input to tell the deference from the school branches -->
 
     </div>
 
+    <?php
+    include_once 'php/adminsignup.php';
+    //global $schoolname;
+    global $sql;
+        if($sql){?>
+           
+           <div style="width:100%; text-align:center;">
+            <h2 style="color:rgb(238, 163, 178);">welcome</h2>
+            <h1 style="color:  rgb(216, 37, 73);"><?php echo("{$_SESSION['schoolname']}"); ?></h1>
+            <span style="color:grey;">for security purposes please login</span>
+            <a href="/login.php">
+               <div style="display: flex;justify-content:center;">
+                <div id="loginbtn" style=" background-color: rgb(250, 25, 100); width: 320px;
+                            padding: 5px; border-radius: 5px; border: none;color: #fff;margin-top: 50px;">
+                        <span>login</span>
+                </div>
+               </div>
+            </a>
+        </div>
+        <?php } ?>
+
+
+
            <div style="width: 100%; display:flex; justify-content:center;">
-                <div class="error">
+                <div id="error">
                         <?php
-                        require 'php/adminsignup.php';
+                        include_once 'php/adminsignup.php';
                         adminrval();
                         ?>
                     </div>
@@ -57,19 +80,20 @@ input to tell the deference from the school branches -->
 
 
                 <form  id="form" method="POST">
+                <input style="display: none;" id="role" type="checkbox" name="role" value="A" checked>
                     <div id="planboxcont" style="display: none; width:100%;">
                         <div id="planbox">
-                        <input type="hidden" name="plan" value="No_plan">
+                        <input type="hidden" name="plan" value="N">
                             <div class="planbox">
-                                <input type="checkbox" name="plan" value="premium" id="premiumbox">
+                                <input type="checkbox" name="plan" value="p" id="premiumbox">
                                 <span>premium</span>
                             </div>
                             <div class="planbox">
-                                <input type="checkbox" name="plan" value="baby" id="babybox">
+                                <input type="checkbox" name="plan" value="b" id="babybox">
                                 <span>baby</span>
                             </div>
                             <div class="planbox">
-                                <input type="checkbox" name="plan" value="free" id="freebox">
+                                <input type="checkbox" name="plan" value="f" id="freebox">
                                 <span>free</span>
                             </div>
                         </div>
@@ -77,7 +101,10 @@ input to tell the deference from the school branches -->
 
                     <div class="container" id="cont0">
                         <small>your school name:</small>
-                        <input class="input" id="schoolname"  name="schoolname" placeholder="school name" type="name">
+                        <input class="input" id="schoolname"  name="schoolname" placeholder="cool college" type="name" required>
+                        <small>login ID:</small>
+                        <input class="input" id="username"  name="username" placeholder="cool1998" type="name" required>
+                        
                         <small> branch:</small>
                         <input class="input" type="text" name="branch_txt" placeholder="branch: e.g fagba branch" placeholder="branch: e.g fagba branch">
                         <br> <small>please ignore if you are not a branch or headquaters</small>
@@ -353,13 +380,13 @@ input to tell the deference from the school branches -->
                     <!-- use laravel if password does not match show only this div with error msg js is
 ruining your code-->
                     <div class="container" id="cont1">
-                        <input class="input" id="email" type="text" name="Aemail" placeholder="enter email">
+                        <input class="input" id="email" type="text" name="Aemail" placeholder="enter email" required>
                         <br>
                         <small id="info_1">its advisable to enter school active email</small>
 
-                        <input class="input" type="password" name="Apass" id="password" placeholder="create password">
+                        <input class="input" type="password" name="Apass" id="password" placeholder="create password" required>
                         <br>
-                        <input class="input" type="password" name="confirm_pass" id="password1" placeholder="confirm password">
+                        <input class="input" type="password" name="confirm_pass" id="password1" placeholder="confirm password" required>
                         <div style="display: flex">
                             <div><input type="checkbox" id="showpass"></div>
                             <div> <small>show password</small></div>
@@ -377,6 +404,7 @@ ruining your code-->
             </div>
 
             </form>
+
            <div id="navDivv0" >
            <div class="navDiv">
                             <button class="navbtn1" id="navback0">back</button>
@@ -392,7 +420,7 @@ ruining your code-->
             </div>
            </div>
 
-
+          
 
             <!--plan-->
             <div id="plan">
@@ -567,12 +595,17 @@ ruining your code-->
 
             </div>
 
+            <div id="inform" >
+               
+            </div>
 
             <div class="articlediv">
                 <div class="head">
                     to add teachers
 
                 </div>
+
+               
                 <article>
                     <small>
                         <ul>

@@ -7,6 +7,7 @@ const nav1 = document.getElementById('nav1');
 const nav2 = document.getElementById('nav2');
 const read1 = document.getElementById('read1');
 const read2 = document.getElementById('read2');
+const form = document.getElementById("form");
 
 
 
@@ -45,22 +46,25 @@ const show = document.getElementById('show');
 
 
 
+/*
 
+document.getElementById("form").addEventListener("click", function(event){
+    event.preventDefault()
+  });
 
-
-
-
-
+*/
 Next0.addEventListener('click' , (e)=>{
-    if(surname.value == "" || firstname.value == ""||thirdname.value == ""){
-
-    }else{
-            cont0.style.display ='none';
-            Next0.style.display ='none';
-            cont1.style.display ='block';
-            nav1.style.display ='flex';
-    }
+   
+    if(surname.value == "" || firstname.value == "" || thirdname.value == ""){
+        error.style.display='block';
+        error.innerHTML='<span style="color:red;">please enter your Names</span>';
+    }else{ cont0.style.display ='none';
+        nav0.style.display ='none';
+        error.style.display='none';
+        cont1.style.display ='block';
+        nav1.style.display ='flex';
     
+}
    
 
 })
@@ -68,35 +72,42 @@ Next0.addEventListener('click' , (e)=>{
 
 
 Next1.addEventListener('click' , (e)=>{
-    if(age.value == "" || grade.value == ""){
+    
+    if(age.value == ""){
+        error.style.display='block';
+        error.innerHTML='<span style="color:red;">please enter your age</span>';
+    
+
+}else if(age.value == "" || grade.value == ""){
+    error.style.display='block';
+    error.innerHTML='<span style="color:red;"> age and grade are required </span>';
 
     }else{
+        
     cont1.style.display ='none';
     nav1.style.display ='none';
-    cont2.style.display ='block';
+    cont2.style.display ='block'; 
     nav2.style.display ='flex';
+    error.style.display='none';
     }
 
 })
 
 
 Next2.addEventListener('click' , (e)=>{
-    if(address.value == ""){
-
-    }else{
     
     cont2.style.display ='none';
     nav2.style.display ='none';
     cont3.style.display ='block';
     navend.style.display ='flex';
-    }
+    
    
 })
 
 back1.addEventListener('click' , (e)=>{
 
     cont0.style.display ='block';
-    Next0.style.display ='block';
+    nav0.style.display ='block';
     cont1.style.display ='none';
     nav1.style.display ='none';
 

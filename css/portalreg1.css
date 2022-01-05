@@ -28,14 +28,18 @@ label{
 
 form{
     margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
     width: 350px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
 
 }
+
+.form{
+    width: 350px;
+
+}
+
 
 
 
@@ -53,19 +57,17 @@ form{
     
     }
     
-    #info_2{
-        color:red; display:none;
-    }
-    
     input{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 10px;
     height: 40px;
+    margin-left: 5%;
+    margin-bottom: 10px;
     border: none;
-    width: 100%;
+    width: 90%;
     border-bottom: 0.1pt solid rgb(197, 17, 128);
     }
+    
     
     #pass1{
         text-align: center;
@@ -93,7 +95,7 @@ form{
 
 
     #next0{
-        margin-left: 150px;
+        margin-left: 230px;
     }
     
     #passinfo{

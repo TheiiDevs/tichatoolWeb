@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portal|login</title>
+    <title>login|login</title>
 
     <style type="text/css">
 
@@ -27,6 +27,13 @@
         .body{
             display: flex;
             justify-content: center;
+            width: 100%;
+            
+        }
+
+
+        section{
+            width: 320px;
         }
 
         .imgdiv{
@@ -39,18 +46,21 @@
             margin-top: 40px;
         }
 
-        .form{
-            margin: 10px;
+        form{
+            text-align: center;
+            margin-top: 10px;
             width: 320px;
+           
         }
+        
 
         .input{
             text-align: center;
             margin-top: 50px;
             height: 50px;
             border: none;
-            width: 100%;
-            border-bottom: 0.1pt solid rgb(197, 17, 128);
+            width: 310px;
+            border-bottom: 0.1pt solid rgb(250, 25, 100);
 
         }
 
@@ -65,7 +75,7 @@
 
         a {
         text-decoration: none;
-        color: rgb(250, 25, 100);
+        color:  rgb(250, 25, 100);
         }
 
         a:hover {
@@ -84,6 +94,10 @@
           
         }
 
+        .imgdiv{
+            width: 100%;
+        }
+
         .inpdiv{
             width: 100%;
             text-align: center; 
@@ -91,12 +105,6 @@
 
         .checkdiv{
             margin-top: 20px;
-        }
-
-      
-
-        #validation{
-            color: blue;
         }
 
         button{
@@ -128,21 +136,37 @@
 
             <div class="body">
                 <section>
-                    <div id="error">
-
-                    </div>
 
                     <div class="imgdiv">
                         <img src="/logos/tichatoolweb.gif">
 
                     </div>
-                    <div class="form">
-                        <form action="" id="form" method="GET">
+
+
+                    <div style="margin-top:20px; text-align:center; width: 100%; display:flex; justify-content:center; ">
+               
+                        <?php
+                            require 'php/loginPorphp.php';
+                            porlogin();
+
+                            /*
+                                //this error msg style is from user.php
+                                if(isset($result['errorMessage'])){
+                                    echo '<p class="errorMsg">'.$result['errorMessage'].'</p>';
+                                }
+                                if(isset($result['successMessage'])){
+                                    echo '<p class="successMsg">'.$result['successMessage'].'</p>';
+                                }
+                            */
+                        ?>
+                    </div>
+
+                        <form  method="POST">
                         <div class="inpdiv">
-                            <input class="input" type="email" id ="email" placeholder="student ID" required>
+                            <input class="input" name="username" type="name"  placeholder="login ID" >
                             <br>
 
-                            <input class="input" id="password" type="password"  placeholder="password" required>
+                            <input class="input" name="password" type="password" id="password" placeholder="password" >
                         </div>
                                     
                                 <div class="checkdiv">
@@ -158,13 +182,17 @@
                                 
                         </form>
 
-                    </div>
-
 
                 <div class="foot">
                     <div class="txts">
                         <a href="/forgotpassword"><h5>i can't remember my password</h5></a>
-                        <a href="/reg1"><h5>create account</h5></a>
+                        <a href="Auth/reg1.php"><h5>create account</h5></a>
+                    </div>
+
+                </div>
+                <div>
+                    <div style="text-align:center;">
+                        <a  href="loginPortal.php"><h3>portal</h3></a>
                     </div>
 
                 </div>
@@ -177,24 +205,24 @@
     </body>
 
     <script>
-        const password1 = document.getElementById('password1');
+        const password= document.getElementById('password');
         const showpass = document.getElementById('showpass');
 
-        showpass.addEventListener( "click", handleToggleClick, false );
+                    showpass.addEventListener( "click", handleToggleClick, false );
 
-// I handle the toggle click, changing the TYPE of password input
-function handleToggleClick( event ) {
-    if ( this.checked ) {
-    password.type = "text";
-   
+            // I handle the toggle click, changing the TYPE of password input
+            function handleToggleClick( event ) {
+                if ( this.checked ) {
+                password.type = "text";
+            
 
-    } else {
-    password.type = "password";
-   
+                } else {
+                password.type = "password";
+            
 
-}
+            }
 
-}
+            }
 
     </script>
 </html>

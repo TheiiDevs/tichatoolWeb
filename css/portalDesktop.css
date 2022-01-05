@@ -1,0 +1,155 @@
+body{
+    background-color: #fff;
+    font-family: 'Myriad Pro300', sans-serif;
+    /*font-size: 13px;*/
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+#switchBtn{
+    text-align: center; margin-top: 5px;
+    width: 60px; border-radius: 3px;
+    border: solid 0.5px rgb(250, 25, 100);
+    padding-bottom: 3px;
+    color: rgb(250, 25, 100);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.btndv0{
+    text-align: center; margin-top: 5px;
+    width: 120px;
+    box-shadow: gray  -1px -1px 1em -10px;
+    color: rgb(250, 25, 100);
+    margin: 10px; height: 25px;
+    display: flex; border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: 20;
+    margin-right: 50;
+
+}
+
+.divc{
+    margin-left:50px; margin-right: 50px;
+    width: 120px; display: flex;
+    justify-content: center;
+}
+
+.switchBtn{
+    text-align: center;
+    width: 50px;
+    padding-top: 3px;
+
+}
+
+
+.imgdiv{
+    width: 30px; border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(185, 118, 160);
+    /*rgb(185, 118, 160)*/
+}
+
+
+
+
+.hedadiv{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+#skuname{
+    color: grey;
+    font-weight: 1000;
+    
+}
+
+#motto{
+    color: rgb(138, 133, 136);
+
+}
+
+.AvataDiv0{
+    width: 100%; padding-left: 30px;
+    position: absolute;
+    top: 40px;
+
+}
+
+.hedcont{
+    padding: 2px;
+    width: 100%;
+    border-bottom: solid 1px rgb(212, 202, 202);
+    /* rgb(250, 25, 100)*/
+    position: relative;
+    
+}
+
+.lockdiv{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.AvataDiv{
+    width: 110px; height: 110px;
+    border-radius: 50%; display: flex;
+    justify-content: center;
+    background-color:rgb(212, 202, 202);
+    margin-top: 55px; margin-left: 20px;
+   
+}
+
+.inAVDiv{
+    width: 107px; height: 107px;
+    border-radius: 50%;
+    margin-top: 2px;
+   
+
+}
+
+.usernamediv{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(185, 118, 160);
+}
+
+.namesdiv{
+   margin-bottom:5px ;
+}
+
+label{
+    color: rgb(180, 177, 177);
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+    section{
+        width: 600px;
+        max-width: 900px;
+    }
+    .namescont{
+        display: flex;
+    }
+
+    .namesdiv{
+        min-width: 200px;
+        max-width: 300px;
+    }
+

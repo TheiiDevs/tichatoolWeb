@@ -1,0 +1,120 @@
+body{
+    background-color: #fff;
+    font-family: 'Myriad Pro300', sans-serif;
+    /*font-size: 13px;*/
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.lockdiv{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+.btndv0{
+    text-align: center; margin-top: 5px;
+    width: 80px;
+    box-shadow: gray  -1px -1px 1em -10px;
+    color: rgb(250, 25, 100);
+    margin: 10px; height: 25px;
+    display: flex; border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.switchBtn{
+    text-align: center;
+    width: 50px;
+    padding-top: 3px;
+
+}
+
+
+.imgdiv{
+    width: 30px; border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(185, 118, 160);
+}
+
+.hedadiv{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+
+}
+
+#skuname{
+    color: grey;
+    font-weight: 1000;
+    
+}
+
+#motto{
+    color: rgb(138, 133, 136);
+
+}
+
+.AvataDiv0{
+    width: 100%; display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+
+}
+
+.hedcont{
+    padding: 2px;
+    width: 100%;
+    border-bottom: solid 1px rgb(212, 202, 202);
+    position: relative;
+    
+}
+
+.AvataDiv{
+    width: 110px; height: 110px;
+    border-radius: 50%; display: flex;
+    justify-content: center; margin-top: 65px;
+    background-color:rgb(212, 202, 202);
+   
+}
+
+.inAVDiv{
+    width: 108px; height: 108px;
+    border-radius: 50%;
+    margin-top: 1px;
+   
+
+}
+
+.usernamediv{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    color:rgb(185, 118, 160);
+}
+
+.namesdiv{
+   margin:5px ;
+   width: 30%;
+   text-align: center;
+}
+
+.namescont{
+    display: flex;
+}
+
+label{
+    display: none;
+}
+
+label{
+    color: rgb(180, 177, 177);
+}
+

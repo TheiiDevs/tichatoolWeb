@@ -13,10 +13,10 @@
     <body>
         <section>
             <div class="admin">
-                <a href="/reg02"> <h2 >Admin</h2></a>
+                <a href="/adminReg.php"> <h2 >Admin</h2></a>
             </div>
             <div class="student">
-                <a href="/reg2"><h2 >Student</h2></a>
+                <a href="/portalReg.php"><h2 >Student</h2></a>
             </div>
         </section>
         

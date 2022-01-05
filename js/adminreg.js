@@ -15,6 +15,7 @@ const read2 = document.getElementById('read2');
 const error = document.getElementById('error');
 const error2 = document.getElementById('error2');
 const passinfo = document.getElementById('passinfo');
+const inform = document.getElementById('inform');
 
 
 
@@ -45,6 +46,7 @@ const navback2 = document.getElementById('navback2');
 
 //inputs
 const schoolname = document.getElementById('schoolname');
+const username = document.getElementById('username');
 const address = document.getElementById('address');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
@@ -55,6 +57,8 @@ const free = document.getElementById('freebox');
 const showpass = document.getElementById('showpass');
 
 
+/*
+//validation
     if (window.location.href.indexOf("adminsignup=empty") != -1){
      err.innerHTML=  '<div style="width: 100%; text-align:center; color:red;"><small>you did not fill in all required fields</small></div>';
      
@@ -82,6 +86,7 @@ const showpass = document.getElementById('showpass');
    
     }
 
+*/
 
 //plans
 
@@ -130,7 +135,6 @@ choose2.addEventListener('click' , (e)=>{
     form.style.display ='block';
     babybox.checked= true;
    
-
 })
 
 choose3.addEventListener('click' , (e)=>{
@@ -172,11 +176,25 @@ free.addEventListener('click' , (e)=>{
 
 
 navNext0.addEventListener('click' , (e)=>{
-   
+    if(schoolname.value =="" || username.value ==""){
+        error.style.display='block';
+        error.innerHTML='<span style="color:red;">school name and login id cannot be empty</span>';
+
+    }else{
             cont0.style.display ='none';
             navDivv0.style.display ='none';
             cont2.style.display ='block';
             navDivv1.style.display ='block';
+            
+    }
+
+})
+
+schoolname.addEventListener('input' , (e)=>{
+    if(error.style.display !='none'){
+        error.style.display='none';
+
+    }
 
 })
 
@@ -224,16 +242,15 @@ navNext2.addEventListener('click' , (e)=>{
    
 })
 
-email.addEventListener('input' , (e)=>{
-    info_2.style.display='none';
-    info_1.style.display='block';
-})
-
 navback2.addEventListener('click' , (e)=>{
     cont0.style.display ='block';
     navDivv0.style.display ='block';
     cont2.style.display ='none';
     navDivv1.style.display ='none';
+})
+
+password.addEventListener('click' , (e)=>{
+    inform.innerHTML='<div style="width: 100%; color:fuchsia; text-align:center;"><small>for security purpose, you will be required to login</small></div>';
 })
 
 
