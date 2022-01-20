@@ -1,19 +1,22 @@
 body{
     background-color: #fff;
     font-family: 'Myriad Pro300', sans-serif;
+   
     /*font-size: 13px;*/
 }
 
-
+.body0{
+    width: 100%;
+ margin-top: 20px;
+}
 
 a{
     text-decoration: none;
 }
 
-.lockdiv{
-    margin-top: 20px;
-    margin-left: 5px;
-}
+
+
+
 
 
 .btndv0{
@@ -21,11 +24,41 @@ a{
     width: 80px;
     box-shadow: gray  -1px -1px 1em -10px;
     color: rgb(250, 25, 100);
-    margin: 10px; height: 25px;
+    height: 25px;
     display: flex; border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
 
 }
+.btndv1{
+    text-align: center; width: 80px;
+    margin-top: 5px; margin-left: 25px;
+    margin-right: 25px; height: 25px;
+    box-shadow: gray  -1px -1px 1em -10px;
+    color: rgb(250, 25, 100);
+    display: flex; border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+.top{
+    width: 100%;
+    padding-top: 3px;
+    display:flex;
+
+}
+        .lockdiv{
+            width: 50%;
+            padding-left: 5px;
+        }
+        .set{
+          
+            width: 45%;
+            text-align: end;
+        }
+
+        .setBtn{
+            width:35px;
+        }
 
 .switchBtn{
     text-align: center;
@@ -61,20 +94,23 @@ a{
 
 }
 
-.AvataDiv0{
-    width: 100%; display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 60px;
 
-}
+
+
 
 .hedcont{
-    padding: 2px;
+    min-width: 360px;
     width: 100%;
     border-bottom: solid 1px rgb(212, 202, 202);
     position: relative;
     
+}
+
+.AvataDiv0{
+    width: 100%; padding-left: 30px;
+    position: absolute;
+    top: 47px;
+
 }
 
 .AvataDiv{
@@ -106,8 +142,14 @@ a{
    text-align: center;
 }
 
+.stuName{
+    color: gray;
+}
+
 .namescont{
+    width: 100%;
     display: flex;
+  
 }
 
 label{
@@ -117,4 +159,8 @@ label{
 label{
     color: rgb(180, 177, 177);
 }
+
+
+
+
 

@@ -38,6 +38,18 @@ a{
     margin-right: 50;
 
 }
+.btndv1{
+    text-align: center; margin-top: 5px;
+    width: 120px;
+    box-shadow: gray  -1px -1px 1em -10px;
+    color: rgb(250, 25, 100);
+    margin: 10px; height: 25px;
+    display: flex; border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: 20;
+    margin-right: 50;
+
+}
 
 .divc{
     margin-left:50px; margin-right: 50px;
@@ -98,10 +110,24 @@ a{
     
 }
 
-.lockdiv{
-    margin-top: 5px;
-    margin-left: 50px;
+.top{
+    width: 100%;
+    padding-top: 3px;
+    display:flex;
+
 }
+        .lockdiv{
+            width: 50%;
+            padding-left: 5px;
+        }
+        .set{
+            width: 48%;
+            text-align: end;
+        }
+
+        .setBtn{
+            width:40px;
+        }
 
 .AvataDiv{
     width: 110px; height: 110px;
